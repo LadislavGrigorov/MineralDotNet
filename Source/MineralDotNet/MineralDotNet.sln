@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineralDotNet.Common", "MineralDotNet.Common\MineralDotNet.Common.csproj", "{57119344-E7C5-4A41-8660-71879076BD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineralDotNet.Data", "MineralDotNet.Data\MineralDotNet.Data.csproj", "{1E5CA684-93AC-40CD-A1F0-50D04F6A241C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineralDotNet.Models", "MineralDotNet.Models\MineralDotNet.Models.csproj", "{29E69A3F-9DCD-4489-9DC6-1EE8D834A6A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineralDotNet.Contracts", "MineralDotNet.Contracts\MineralDotNet.Contracts.csproj", "{C2CEB00D-AC5E-49B9-A470-DD62D4D1AFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineralDotNet.Web", "MineralDotNet.Web\MineralDotNet.Web.csproj", "{368B927F-DC4E-4776-B556-81007A3D82BC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57119344-E7C5-4A41-8660-71879076BD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57119344-E7C5-4A41-8660-71879076BD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57119344-E7C5-4A41-8660-71879076BD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57119344-E7C5-4A41-8660-71879076BD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5CA684-93AC-40CD-A1F0-50D04F6A241C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5CA684-93AC-40CD-A1F0-50D04F6A241C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5CA684-93AC-40CD-A1F0-50D04F6A241C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5CA684-93AC-40CD-A1F0-50D04F6A241C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E69A3F-9DCD-4489-9DC6-1EE8D834A6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E69A3F-9DCD-4489-9DC6-1EE8D834A6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E69A3F-9DCD-4489-9DC6-1EE8D834A6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E69A3F-9DCD-4489-9DC6-1EE8D834A6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CEB00D-AC5E-49B9-A470-DD62D4D1AFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CEB00D-AC5E-49B9-A470-DD62D4D1AFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CEB00D-AC5E-49B9-A470-DD62D4D1AFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CEB00D-AC5E-49B9-A470-DD62D4D1AFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368B927F-DC4E-4776-B556-81007A3D82BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368B927F-DC4E-4776-B556-81007A3D82BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368B927F-DC4E-4776-B556-81007A3D82BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368B927F-DC4E-4776-B556-81007A3D82BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
